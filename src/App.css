@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  background-color: burlywood;
+  height: 10vh;
+}
+header h1 {
+  color: white;
+  font-size: 250%;
+  font-family: system-ui;
+  font-weight: 300;
+}
+.main {
+  background-color: blueviolet;
+  height: 80vh;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  height: 10vh;
+}
+.todoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+  color: white;
+}
+label {
+  margin-top: 10px;
+}
+input {
+  text-align: center;
+  width: 80vw;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.buttonBox {
+  width: 80vw;
+  margin: auto;
+  text-align: right;
+}
+button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+}
+li{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 2px;
+}
+.todolist{
+  overflow: auto;
+  height: 50vh;
+}
