@@ -6,7 +6,7 @@ function List() {
         setTodos([...todos, newTodo]);
     }
     return (
-        <div>
+        <>
             <TodoForm addTodo={addTodo} />
             <div className="todolist">
                 <ul>
@@ -15,7 +15,7 @@ function List() {
                     ))}
                 </ul>
             </div>
-        </div>
+        </>
     )
 }
 export default List;
